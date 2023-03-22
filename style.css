@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #250BE3;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 25px;
+}
+
+section nav > a {
+    color: black;
+    width: 15em;
+    display: block;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #0126FA;
+}
+
+main {
+    height: auto;
+    background-color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 25px;
+}
+
+main nav > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
